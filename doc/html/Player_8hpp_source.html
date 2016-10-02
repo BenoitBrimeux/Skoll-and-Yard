@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Skøll &amp; Yard:  Fichier source de Player.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Skøll &amp; Yard
+   &#160;<span id="projectnumber">1.0.0</span>
+   </div>
+   <div id="projectbrief">Puissance 4 en C++/SFML</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Player.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Player_8hpp.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PLAYER_HPP_</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PLAYER_HPP_</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Board_8hpp.html">Board.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classPlayer.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPlayer.html">Player</a>{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;     <a class="code" href="classPlayer.html#affe0cc3cb714f6deb4e62f0c0d3f1fd8">Player</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;     <a class="code" href="classPlayer.html#affe0cc3cb714f6deb4e62f0c0d3f1fd8">Player</a>(std::string pseudo, <span class="keywordtype">int</span> i);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;     <a class="code" href="classPlayer.html#a749d2c00e1fe0f5c2746f7505a58c062">~Player</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;     std::string <a class="code" href="classPlayer.html#a41bf8a7ea4355517cb129114afd484a3">getPseudo</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;     <span class="keywordtype">int</span> <a class="code" href="classPlayer.html#af20a6dc4cb0e75827fcf750cdeacdd82">getId</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="classPlayer.html#a266313fc43697bba7b17a3d79f1a8c84">setPseudo</a>(std::string pseudo);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="classPlayer.html#ac1d9e36a65885e08731baaee99d2e0d0">setId</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="classPlayer.html#ac95e870e3ecaaeb0afdbec51b022e13a">playStroke</a>(<a class="code" href="structStroke.html">Stroke</a> coup);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;     <span class="keywordtype">void</span> <a class="code" href="classPlayer.html#a3923dd4119380d3f77b52f7eed422322">displayPlayer</a>(std::ostream &amp;os);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="classPlayer.html#ac1c7299b13b2f93f01446e66413cbaaa">   79</a></span>&#160;     std::string <a class="code" href="classPlayer.html#ac1c7299b13b2f93f01446e66413cbaaa">_pseudo</a>; </div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="classPlayer.html#a83ed80378037c3dcab66cdf74fa37946">   80</a></span>&#160;     <span class="keywordtype">int</span> <a class="code" href="classPlayer.html#a83ed80378037c3dcab66cdf74fa37946">_id</a>;             </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;};</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;     std::ostream&amp; <a class="code" href="Player_8hpp.html#af9fd0cb7a64a0c75d1fadb962522f734">operator&lt;&lt;</a>(std::ostream &amp;os, <a class="code" href="classPlayer.html">Player</a> joueur);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classPlayer_html_a266313fc43697bba7b17a3d79f1a8c84"><div class="ttname"><a href="classPlayer.html#a266313fc43697bba7b17a3d79f1a8c84">Player::setPseudo</a></div><div class="ttdeci">void setPseudo(std::string pseudo)</div><div class="ttdoc">met à jour le pseudo d&#39;un joueur Methode qui modifie le pseudo du joueur </div><div class="ttdef"><b>Definition:</b> <a href="Player_8cpp_source.html#l00017">Player.cpp:17</a></div></div>
+<div class="ttc" id="structStroke_html"><div class="ttname"><a href="structStroke.html">Stroke</a></div><div class="ttdoc">structure contenant un coup. Coup contient un coup qui est représenté par ses coordonées (i et j) et ...</div><div class="ttdef"><b>Definition:</b> <a href="Board_8hpp_source.html#l00030">Board.hpp:30</a></div></div>
+<div class="ttc" id="classPlayer_html_a83ed80378037c3dcab66cdf74fa37946"><div class="ttname"><a href="classPlayer.html#a83ed80378037c3dcab66cdf74fa37946">Player::_id</a></div><div class="ttdeci">int _id</div><div class="ttdef"><b>Definition:</b> <a href="Player_8hpp_source.html#l00080">Player.hpp:80</a></div></div>
+<div class="ttc" id="Board_8hpp_html"><div class="ttname"><a href="Board_8hpp.html">Board.hpp</a></div><div class="ttdoc">Gestion du plateau. </div></div>
+<div class="ttc" id="classPlayer_html_af20a6dc4cb0e75827fcf750cdeacdd82"><div class="ttname"><a href="classPlayer.html#af20a6dc4cb0e75827fcf750cdeacdd82">Player::getId</a></div><div class="ttdeci">int getId()</div><div class="ttdoc">retourne le numero d&#39;un joueur Methode qui retourne l&#39;identifiant du joueur </div><div class="ttdef"><b>Definition:</b> <a href="Player_8cpp_source.html#l00015">Player.cpp:15</a></div></div>
+<div class="ttc" id="Player_8hpp_html_af9fd0cb7a64a0c75d1fadb962522f734"><div class="ttname"><a href="Player_8hpp.html#af9fd0cb7a64a0c75d1fadb962522f734">operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, Player joueur)</div><div class="ttdoc">surchage d&#39;operateur &lt;&lt; Surcharge de l&#39;operateur de flux de sortie pour l&#39;objet Player ...</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cpp_source.html#l00023">Player.cpp:23</a></div></div>
+<div class="ttc" id="classPlayer_html_ac95e870e3ecaaeb0afdbec51b022e13a"><div class="ttname"><a href="classPlayer.html#ac95e870e3ecaaeb0afdbec51b022e13a">Player::playStroke</a></div><div class="ttdeci">void playStroke(Stroke coup)</div><div class="ttdoc">Methode qui permet de jouer un coup. </div></div>
+<div class="ttc" id="classPlayer_html_a749d2c00e1fe0f5c2746f7505a58c062"><div class="ttname"><a href="classPlayer.html#a749d2c00e1fe0f5c2746f7505a58c062">Player::~Player</a></div><div class="ttdeci">~Player()</div><div class="ttdoc">Destructeur de la classe Player. </div><div class="ttdef"><b>Definition:</b> <a href="Player_8cpp_source.html#l00011">Player.cpp:11</a></div></div>
+<div class="ttc" id="classPlayer_html_a3923dd4119380d3f77b52f7eed422322"><div class="ttname"><a href="classPlayer.html#a3923dd4119380d3f77b52f7eed422322">Player::displayPlayer</a></div><div class="ttdeci">void displayPlayer(std::ostream &amp;os)</div><div class="ttdoc">afficher joueur Methode qui permet d&#39;afficher l&#39;identifiant et le pseudo du joueur ...</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cpp_source.html#l00021">Player.cpp:21</a></div></div>
+<div class="ttc" id="classPlayer_html_a41bf8a7ea4355517cb129114afd484a3"><div class="ttname"><a href="classPlayer.html#a41bf8a7ea4355517cb129114afd484a3">Player::getPseudo</a></div><div class="ttdeci">std::string getPseudo()</div><div class="ttdoc">retourne le pseudo d&#39;un joueur Methode qui retourne le pseudo du joueur </div><div class="ttdef"><b>Definition:</b> <a href="Player_8cpp_source.html#l00013">Player.cpp:13</a></div></div>
+<div class="ttc" id="classPlayer_html_ac1d9e36a65885e08731baaee99d2e0d0"><div class="ttname"><a href="classPlayer.html#ac1d9e36a65885e08731baaee99d2e0d0">Player::setId</a></div><div class="ttdeci">void setId(int id)</div><div class="ttdoc">met à jour l&#39;identifiant d&#39;un joueur Methode qui modifie l&#39;identifiant du joueur </div><div class="ttdef"><b>Definition:</b> <a href="Player_8cpp_source.html#l00019">Player.cpp:19</a></div></div>
+<div class="ttc" id="classPlayer_html"><div class="ttname"><a href="classPlayer.html">Player</a></div><div class="ttdoc">classe contenant les fonctions de gestion d&#39;un joueur </div><div class="ttdef"><b>Definition:</b> <a href="Player_8hpp_source.html#l00017">Player.hpp:17</a></div></div>
+<div class="ttc" id="classPlayer_html_affe0cc3cb714f6deb4e62f0c0d3f1fd8"><div class="ttname"><a href="classPlayer.html#affe0cc3cb714f6deb4e62f0c0d3f1fd8">Player::Player</a></div><div class="ttdeci">Player()</div><div class="ttdoc">Constructeur de la classe Player. </div><div class="ttdef"><b>Definition:</b> <a href="Player_8cpp_source.html#l00007">Player.cpp:7</a></div></div>
+<div class="ttc" id="classPlayer_html_ac1c7299b13b2f93f01446e66413cbaaa"><div class="ttname"><a href="classPlayer.html#ac1c7299b13b2f93f01446e66413cbaaa">Player::_pseudo</a></div><div class="ttdeci">std::string _pseudo</div><div class="ttdef"><b>Definition:</b> <a href="Player_8hpp_source.html#l00079">Player.hpp:79</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Mercredi 17 Juin 2015 14:04:11 pour Skøll &amp; Yard par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

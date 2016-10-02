@@ -1,0 +1,5 @@
+<map id="Board" name="Board">
+<area shape="rect" id="node2" href="$classGame.html" title="classe contenant les fonctions de gestion du jeu. La classe contient le plateau, les joueurs..." alt="" coords="94,200,151,227"/>
+<area shape="rect" id="node3" href="$classPlayer.html" title="classe contenant les fonctions de gestion d&#39;un joueur " alt="" coords="5,96,63,123"/>
+<area shape="rect" id="node4" href="$structStroke.html" title="structure contenant un coup. Coup contient un coup qui est représenté par ses coordonées (i et j) et ..." alt="" coords="134,5,193,32"/>
+</map>

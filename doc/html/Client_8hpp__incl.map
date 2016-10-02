@@ -1,0 +1,5 @@
+<map id="Client.hpp" name="Client.hpp">
+<area shape="rect" id="node4" href="$Game_8hpp.html" title="Gestion du jeu. " alt="" coords="227,80,308,107"/>
+<area shape="rect" id="node5" href="$Board_8hpp.html" title="Gestion du plateau. " alt="" coords="266,229,347,256"/>
+<area shape="rect" id="node6" href="$Player_8hpp.html" title="Gestion d&#39;un Joueur. " alt="" coords="317,155,400,181"/>
+</map>

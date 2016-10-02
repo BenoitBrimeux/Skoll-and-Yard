@@ -1,0 +1,7 @@
+<map id="UInterface.hpp" name="UInterface.hpp">
+<area shape="rect" id="node4" href="$Game_8hpp.html" title="Gestion du jeu. " alt="" coords="311,155,392,181"/>
+<area shape="rect" id="node8" href="$UIGame_8hpp.html" title="Gestion de l&#39;interface graphique du jeu pour l&#39;utilisateur affichage du plateau, des differents messa..." alt="" coords="219,80,315,107"/>
+<area shape="rect" id="node9" href="$Client_8hpp.html" title="Gestion du reseau partie client.. " alt="" coords="417,80,497,107"/>
+<area shape="rect" id="node6" href="$Board_8hpp.html" title="Gestion du plateau. " alt="" coords="365,304,445,331"/>
+<area shape="rect" id="node7" href="$Player_8hpp.html" title="Gestion d&#39;un Joueur. " alt="" coords="415,229,499,256"/>
+</map>

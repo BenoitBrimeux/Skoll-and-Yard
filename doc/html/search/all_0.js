@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['_5fboardshape',['_boardShape',['../classUIGame.html#a67ef5dc27784b1c64692f9bd518ccf92',1,'UIGame']]],
+  ['_5fboardshape3d',['_boardShape3D',['../classUIGame.html#a98a5a6dd82e03aaceb639746d761645f',1,'UIGame']]],
+  ['_5fcolumn',['_column',['../classUIGame.html#ac283d9f1bd8ca614dbb9bbaeeb54bd6a',1,'UIGame']]],
+  ['_5fi',['_i',['../structStroke.html#a4e2850283af8e08d5ff803f30eb52747',1,'Stroke']]],
+  ['_5fid',['_id',['../classPlayer.html#a83ed80378037c3dcab66cdf74fa37946',1,'Player']]],
+  ['_5fip',['_ip',['../classClient.html#af0288db32226f863c7114c8fddcf0854',1,'Client::_ip()'],['../classServeur.html#a03b279d399f9cda9dd2bcc9937f2773d',1,'Serveur::_ip()']]],
+  ['_5fj',['_j',['../structStroke.html#a098a18488af2cdc46d5ab45a4919d73c',1,'Stroke']]],
+  ['_5fjoueur',['_joueur',['../classClient.html#abedb26389f72aee406f1bd18f6cacd91',1,'Client']]],
+  ['_5fjoueur1',['_Joueur1',['../classGame.html#a43aac68f70a31ec4df35fedfa0d0496e',1,'Game::_Joueur1()'],['../classServeur.html#a4bf48a3453b4539c3df4b742a8866e0d',1,'Serveur::_joueur1()']]],
+  ['_5fjoueur2',['_joueur2',['../classServeur.html#a4b8e5f49c7634c4ba40a18fc4a2e70c8',1,'Serveur::_joueur2()'],['../classGame.html#ab6c6c1774a6ca6ecab97e2c7af92fc82',1,'Game::_Joueur2()']]],
+  ['_5flistener',['_listener',['../classServeur.html#ad733c6f6215a55d09ade5c2b1f4692d6',1,'Serveur']]],
+  ['_5fnextplayer',['_nextPlayer',['../classUIGame.html#a4cc32b4f88efd425c0c6dd457b4dac28',1,'UIGame']]],
+  ['_5fplateau',['_plateau',['../classGame.html#a3506e0b789f13bd01c37f1295c75cd7e',1,'Game']]],
+  ['_5fport',['_port',['../classClient.html#a80f5f583bec466b8a8405a155cc4f8bd',1,'Client::_port()'],['../classServeur.html#abbaa90ebb28c1fdc38195d95ab46c46e',1,'Serveur::_port()']]],
+  ['_5fpseudo',['_pseudo',['../classPlayer.html#ac1c7299b13b2f93f01446e66413cbaaa',1,'Player']]],
+  ['_5frefgame',['_refgame',['../classBoard.html#abf5977fa6c995abe823714d3b73d81d4',1,'Board']]],
+  ['_5fserveur',['_serveur',['../classClient.html#a6497261586f82e8b15a06fe97aca8b90',1,'Client']]],
+  ['_5ftab',['_tab',['../classBoard.html#a06a8ce6543142fba1df02d891480b866',1,'Board']]],
+  ['_5ftype',['_type',['../structStroke.html#ac1c7f8cc344b71ad1575d97ab0ee92be',1,'Stroke']]]
+];

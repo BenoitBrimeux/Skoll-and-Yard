@@ -1,0 +1,12 @@
+<map id="Game.hpp" name="Game.hpp">
+<area shape="rect" id="node2" href="$Board_8cpp.html" title="Board.cpp" alt="" coords="5,80,85,107"/>
+<area shape="rect" id="node3" href="$Client_8hpp.html" title="Gestion du reseau partie client.. " alt="" coords="110,80,191,107"/>
+<area shape="rect" id="node5" href="$UInterface_8hpp.html" title="Gestion de l&#39;interface utilisateur du jeu. " alt="" coords="195,155,303,181"/>
+<area shape="rect" id="node8" href="$Game_8cpp.html" title="Game.cpp" alt="" coords="267,80,348,107"/>
+<area shape="rect" id="node9" href="$UIGame_8hpp.html" title="Gestion de l&#39;interface graphique du jeu pour l&#39;utilisateur affichage du plateau, des differents messa..." alt="" coords="373,80,469,107"/>
+<area shape="rect" id="node11" href="$Player_8cpp.html" title="Player.cpp" alt="" coords="494,80,577,107"/>
+<area shape="rect" id="node4" href="$Client_8cpp.html" title="Client.cpp" alt="" coords="90,155,171,181"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="main.cpp" alt="" coords="153,229,227,256"/>
+<area shape="rect" id="node7" href="$UInterface_8cpp.html" title="UInterface.cpp" alt="" coords="253,229,360,256"/>
+<area shape="rect" id="node10" href="$UIGame_8cpp.html" title="UIGame.cpp" alt="" coords="373,155,469,181"/>
+</map>

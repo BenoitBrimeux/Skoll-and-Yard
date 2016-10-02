@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Skøll &amp; Yard:  Fichier source de Client.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Skøll &amp; Yard
+   &#160;<span id="projectnumber">1.0.0</span>
+   </div>
+   <div id="projectbrief">Puissance 4 en C++/SFML</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Énumérations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Valeurs énumérées</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Client.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Client_8cpp.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Client_8hpp.html">Client.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;cstring&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="classClient.html#a560dd5de7c6fbcf2621ba37f8ba59661">    4</a></span>&#160;<a class="code" href="classClient.html#a560dd5de7c6fbcf2621ba37f8ba59661">Client::Client</a>(<span class="keywordtype">string</span> ip, <span class="keywordtype">int</span> port):</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;_ip(ip), _port(port){}</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classClient.html#a840e519ca781888cbd54181572ebe3a7">    7</a></span>&#160;<a class="code" href="classClient.html#a840e519ca781888cbd54181572ebe3a7">Client::~Client</a>(){}</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classClient.html#aa8f0c43c7284a08705daea9eb11ebcdb">    9</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="classClient.html#aa8f0c43c7284a08705daea9eb11ebcdb">Client::DemandeConnexion</a>(){</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="classClient.html#a6497261586f82e8b15a06fe97aca8b90">_serveur</a>.connect(<a class="code" href="classClient.html#af0288db32226f863c7114c8fddcf0854">_ip</a>, <a class="code" href="classClient.html#a80f5f583bec466b8a8405a155cc4f8bd">_port</a>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    cout&lt;&lt;<span class="stringliteral">&quot;Connecté au serveur.&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">char</span> data[10]=<span class="stringliteral">&quot;dmd-connx&quot;</span>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">size_t</span> received;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="classClient.html#a6497261586f82e8b15a06fe97aca8b90">_serveur</a>.send(data, 10);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="classClient.html#a6497261586f82e8b15a06fe97aca8b90">_serveur</a>.receive(data, 10, received);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="classClient.html#abedb26389f72aee406f1bd18f6cacd91">_joueur</a> = 0;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span>(strcmp(data, <span class="stringliteral">&quot;connexio1&quot;</span>) == 0){</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="classClient.html#abedb26389f72aee406f1bd18f6cacd91">_joueur</a> = 1;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span>(strcmp(data, <span class="stringliteral">&quot;connexio2&quot;</span>) == 0){</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classClient.html#abedb26389f72aee406f1bd18f6cacd91">_joueur</a> = 2;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classClient.html#abedb26389f72aee406f1bd18f6cacd91">_joueur</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classClient.html#a904770639247c9d2d33e59aa8133716b">   27</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classClient.html#a904770639247c9d2d33e59aa8133716b">Client::EnvoyerCoup</a>(<a class="code" href="structStroke.html">Stroke</a> Coup){</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">char</span> Donnee[10] = <span class="stringliteral">&quot;Envoi----&quot;</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    Donnee[5]=48+Coup.<a class="code" href="structStroke.html#a4e2850283af8e08d5ff803f30eb52747">_i</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    Donnee[6]=48+Coup.<a class="code" href="structStroke.html#a098a18488af2cdc46d5ab45a4919d73c">_j</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span>(Coup.<a class="code" href="structStroke.html#ac1c7f8cc344b71ad1575d97ab0ee92be">_type</a> == <a class="code" href="Board_8hpp.html#a6a9e93b081bad7fc74c17306fb168c1fad3163c1fcda01965b692ec2c3122b743">Red</a>){</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        Donnee[7]=48+2; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        Donnee[7]=48+1;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classClient.html#a6497261586f82e8b15a06fe97aca8b90">_serveur</a>.send(Donnee, 10);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classClient.html#a645e6ace4b8ac89051bce3eabb12f649">   40</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classClient.html#a645e6ace4b8ac89051bce3eabb12f649">Client::RecevoirCoup</a>(<a class="code" href="classGame.html">Game</a> &amp;RefGame, <span class="keywordtype">char</span> Reception[10]){</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> i = Reception[5] - 48;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">int</span> j = Reception[6] - 48;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="classClient.html#abedb26389f72aee406f1bd18f6cacd91">_joueur</a> == 2){ <span class="comment">// Nous sommes joueur 2</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="structStroke.html">Stroke</a> Coup(i, j, <a class="code" href="Board_8hpp.html#a6a9e93b081bad7fc74c17306fb168c1fad3163c1fcda01965b692ec2c3122b743">Red</a>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        RefGame.<a class="code" href="classGame.html#a7b95d716b5db5e9b87216f40a3241cfd">playStroke</a>(1,Coup); <span class="comment">// On joue joueur 1.</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">else</span>{<span class="comment">// l&#39;inverse</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="structStroke.html">Stroke</a> Coup(i, j, <a class="code" href="Board_8hpp.html#a6a9e93b081bad7fc74c17306fb168c1fabf28513245738599d13e3ce36bd16c82">Yellow</a> );</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        RefGame.<a class="code" href="classGame.html#a7b95d716b5db5e9b87216f40a3241cfd">playStroke</a>(2,Coup);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }   </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span>(RefGame.<a class="code" href="classGame.html#a7488c2b7703e72f8490f61f019e5464d">checkWin</a>() == 1 ){</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="classClient.html#a7e75762ace6efc91fb31b7dccc9f4db0">EnvoyerMess</a>((<span class="keywordtype">char</span>*) <span class="stringliteral">&quot;victoire1&quot;</span>);}<span class="comment">// victoire joueur 1</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(RefGame.<a class="code" href="classGame.html#a7488c2b7703e72f8490f61f019e5464d">checkWin</a>() == 2 ){</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="classClient.html#a7e75762ace6efc91fb31b7dccc9f4db0">EnvoyerMess</a>((<span class="keywordtype">char</span>*) <span class="stringliteral">&quot;victoire2&quot;</span>);<span class="comment">// victoire joueur 2</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(RefGame.<a class="code" href="classGame.html#a19a5da37620073a945876803bf8a4ad3">checkFull</a>()){</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="classClient.html#a7e75762ace6efc91fb31b7dccc9f4db0">EnvoyerMess</a>((<span class="keywordtype">char</span>*) <span class="stringliteral">&quot;nul------&quot;</span>);<span class="comment">// on envoie match nul</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="classClient.html#a7e75762ace6efc91fb31b7dccc9f4db0">EnvoyerMess</a>((<span class="keywordtype">char</span>*) <span class="stringliteral">&quot;ok-------&quot;</span>);<span class="comment">//on continue a joué le match n&#39;est pas terminé</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classClient.html#a7e75762ace6efc91fb31b7dccc9f4db0">   64</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classClient.html#a7e75762ace6efc91fb31b7dccc9f4db0">Client::EnvoyerMess</a>(<span class="keywordtype">char</span> donnee[10]){</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="classClient.html#a6497261586f82e8b15a06fe97aca8b90">_serveur</a>.send(donnee, 10);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classClient.html#a3d55f855270eddb007b2099deae3fc55">   68</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classClient.html#a3d55f855270eddb007b2099deae3fc55">Client::RecevoirMess</a>( <span class="keywordtype">char</span> tab[10]){</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">size_t</span> received;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classClient.html#a6497261586f82e8b15a06fe97aca8b90">_serveur</a>.receive(tab, 10, received) != Socket::Done){</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        cout&lt;&lt;<span class="stringliteral">&quot;Erreur de Reception.&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        sprintf(tab, <span class="stringliteral">&quot;Erreur&quot;</span>);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="ttc" id="classClient_html_a80f5f583bec466b8a8405a155cc4f8bd"><div class="ttname"><a href="classClient.html#a80f5f583bec466b8a8405a155cc4f8bd">Client::_port</a></div><div class="ttdeci">int _port</div><div class="ttdef"><b>Definition:</b> <a href="Client_8hpp_source.html#l00026">Client.hpp:26</a></div></div>
+<div class="ttc" id="classClient_html_a6497261586f82e8b15a06fe97aca8b90"><div class="ttname"><a href="classClient.html#a6497261586f82e8b15a06fe97aca8b90">Client::_serveur</a></div><div class="ttdeci">TcpSocket _serveur</div><div class="ttdef"><b>Definition:</b> <a href="Client_8hpp_source.html#l00024">Client.hpp:24</a></div></div>
+<div class="ttc" id="structStroke_html"><div class="ttname"><a href="structStroke.html">Stroke</a></div><div class="ttdoc">structure contenant un coup. Coup contient un coup qui est représenté par ses coordonées (i et j) et ...</div><div class="ttdef"><b>Definition:</b> <a href="Board_8hpp_source.html#l00030">Board.hpp:30</a></div></div>
+<div class="ttc" id="Board_8hpp_html_a6a9e93b081bad7fc74c17306fb168c1fabf28513245738599d13e3ce36bd16c82"><div class="ttname"><a href="Board_8hpp.html#a6a9e93b081bad7fc74c17306fb168c1fabf28513245738599d13e3ce36bd16c82">Yellow</a></div><div class="ttdef"><b>Definition:</b> <a href="Board_8hpp_source.html#l00021">Board.hpp:21</a></div></div>
+<div class="ttc" id="classClient_html_a7e75762ace6efc91fb31b7dccc9f4db0"><div class="ttname"><a href="classClient.html#a7e75762ace6efc91fb31b7dccc9f4db0">Client::EnvoyerMess</a></div><div class="ttdeci">void EnvoyerMess(char donnee[10])</div><div class="ttdoc">Envoi un message au serveur. Permet d&#39;envoyer un message au serveur. &quot;ok-------&quot;. ...</div><div class="ttdef"><b>Definition:</b> <a href="Client_8cpp_source.html#l00064">Client.cpp:64</a></div></div>
+<div class="ttc" id="classClient_html_aa8f0c43c7284a08705daea9eb11ebcdb"><div class="ttname"><a href="classClient.html#aa8f0c43c7284a08705daea9eb11ebcdb">Client::DemandeConnexion</a></div><div class="ttdeci">int DemandeConnexion()</div><div class="ttdoc">Demande la connexion au serveur Se connecte au serveur et renvoie le numéro du joueur. </div><div class="ttdef"><b>Definition:</b> <a href="Client_8cpp_source.html#l00009">Client.cpp:9</a></div></div>
+<div class="ttc" id="structStroke_html_a4e2850283af8e08d5ff803f30eb52747"><div class="ttname"><a href="structStroke.html#a4e2850283af8e08d5ff803f30eb52747">Stroke::_i</a></div><div class="ttdeci">int _i</div><div class="ttdef"><b>Definition:</b> <a href="Board_8hpp_source.html#l00031">Board.hpp:31</a></div></div>
+<div class="ttc" id="classClient_html_a904770639247c9d2d33e59aa8133716b"><div class="ttname"><a href="classClient.html#a904770639247c9d2d33e59aa8133716b">Client::EnvoyerCoup</a></div><div class="ttdeci">void EnvoyerCoup(Stroke Coup)</div><div class="ttdoc">Envoie le coup qui vient d&#39;etre joué. Permet de transmettre au serveur le coup qui vient d&#39;être joué...</div><div class="ttdef"><b>Definition:</b> <a href="Client_8cpp_source.html#l00027">Client.cpp:27</a></div></div>
+<div class="ttc" id="classClient_html_abedb26389f72aee406f1bd18f6cacd91"><div class="ttname"><a href="classClient.html#abedb26389f72aee406f1bd18f6cacd91">Client::_joueur</a></div><div class="ttdeci">int _joueur</div><div class="ttdef"><b>Definition:</b> <a href="Client_8hpp_source.html#l00027">Client.hpp:27</a></div></div>
+<div class="ttc" id="classGame_html_a19a5da37620073a945876803bf8a4ad3"><div class="ttname"><a href="classGame.html#a19a5da37620073a945876803bf8a4ad3">Game::checkFull</a></div><div class="ttdeci">bool checkFull()</div><div class="ttdoc">Vérifier s&#39;il y a match nul. La fonction vérifie si le plateau n&#39;est pas plein sans pour autant avoir...</div><div class="ttdef"><b>Definition:</b> <a href="Game_8cpp_source.html#l00046">Game.cpp:46</a></div></div>
+<div class="ttc" id="classClient_html_a645e6ace4b8ac89051bce3eabb12f649"><div class="ttname"><a href="classClient.html#a645e6ace4b8ac89051bce3eabb12f649">Client::RecevoirCoup</a></div><div class="ttdeci">void RecevoirCoup(Game &amp;RefGame, char Reception[10])</div><div class="ttdoc">Reçoit le coup joué par l&#39;adversaire. Permet de recevoir via le serveur le coup joué par l&#39;adversaire...</div><div class="ttdef"><b>Definition:</b> <a href="Client_8cpp_source.html#l00040">Client.cpp:40</a></div></div>
+<div class="ttc" id="classGame_html"><div class="ttname"><a href="classGame.html">Game</a></div><div class="ttdoc">classe contenant les fonctions de gestion du jeu. La classe contient le plateau, les joueurs...</div><div class="ttdef"><b>Definition:</b> <a href="Game_8hpp_source.html#l00020">Game.hpp:20</a></div></div>
+<div class="ttc" id="structStroke_html_a098a18488af2cdc46d5ab45a4919d73c"><div class="ttname"><a href="structStroke.html#a098a18488af2cdc46d5ab45a4919d73c">Stroke::_j</a></div><div class="ttdeci">int _j</div><div class="ttdef"><b>Definition:</b> <a href="Board_8hpp_source.html#l00032">Board.hpp:32</a></div></div>
+<div class="ttc" id="classClient_html_a3d55f855270eddb007b2099deae3fc55"><div class="ttname"><a href="classClient.html#a3d55f855270eddb007b2099deae3fc55">Client::RecevoirMess</a></div><div class="ttdeci">void RecevoirMess(char tab[10])</div><div class="ttdoc">Réceptionne un message du serveur. Permet de recevoir un message du serveur. </div><div class="ttdef"><b>Definition:</b> <a href="Client_8cpp_source.html#l00068">Client.cpp:68</a></div></div>
+<div class="ttc" id="Board_8hpp_html_a6a9e93b081bad7fc74c17306fb168c1fad3163c1fcda01965b692ec2c3122b743"><div class="ttname"><a href="Board_8hpp.html#a6a9e93b081bad7fc74c17306fb168c1fad3163c1fcda01965b692ec2c3122b743">Red</a></div><div class="ttdef"><b>Definition:</b> <a href="Board_8hpp_source.html#l00020">Board.hpp:20</a></div></div>
+<div class="ttc" id="structStroke_html_ac1c7f8cc344b71ad1575d97ab0ee92be"><div class="ttname"><a href="structStroke.html#ac1c7f8cc344b71ad1575d97ab0ee92be">Stroke::_type</a></div><div class="ttdeci">Token _type</div><div class="ttdef"><b>Definition:</b> <a href="Board_8hpp_source.html#l00033">Board.hpp:33</a></div></div>
+<div class="ttc" id="classClient_html_a840e519ca781888cbd54181572ebe3a7"><div class="ttname"><a href="classClient.html#a840e519ca781888cbd54181572ebe3a7">Client::~Client</a></div><div class="ttdeci">~Client()</div><div class="ttdoc">Destructeur Permet de supprimer un objet Client. </div><div class="ttdef"><b>Definition:</b> <a href="Client_8cpp_source.html#l00007">Client.cpp:7</a></div></div>
+<div class="ttc" id="classGame_html_a7488c2b7703e72f8490f61f019e5464d"><div class="ttname"><a href="classGame.html#a7488c2b7703e72f8490f61f019e5464d">Game::checkWin</a></div><div class="ttdeci">int checkWin()</div><div class="ttdoc">Vérifier si quelqu&#39;un a gagné. La fonction vérifie si un des joueurs a gagner et renvoie le numéro du...</div><div class="ttdef"><b>Definition:</b> <a href="Game_8cpp_source.html#l00044">Game.cpp:44</a></div></div>
+<div class="ttc" id="classGame_html_a7b95d716b5db5e9b87216f40a3241cfd"><div class="ttname"><a href="classGame.html#a7b95d716b5db5e9b87216f40a3241cfd">Game::playStroke</a></div><div class="ttdeci">void playStroke(int player, Stroke Coup)</div><div class="ttdoc">Joue le coup passé en paramêtre, sur le joueur num C&#39;est à dire que si le joueur est un joueur classi...</div><div class="ttdef"><b>Definition:</b> <a href="Game_8cpp_source.html#l00026">Game.cpp:26</a></div></div>
+<div class="ttc" id="classClient_html_af0288db32226f863c7114c8fddcf0854"><div class="ttname"><a href="classClient.html#af0288db32226f863c7114c8fddcf0854">Client::_ip</a></div><div class="ttdeci">string _ip</div><div class="ttdef"><b>Definition:</b> <a href="Client_8hpp_source.html#l00025">Client.hpp:25</a></div></div>
+<div class="ttc" id="Client_8hpp_html"><div class="ttname"><a href="Client_8hpp.html">Client.hpp</a></div><div class="ttdoc">Gestion du reseau partie client.. </div></div>
+<div class="ttc" id="classClient_html_a560dd5de7c6fbcf2621ba37f8ba59661"><div class="ttname"><a href="classClient.html#a560dd5de7c6fbcf2621ba37f8ba59661">Client::Client</a></div><div class="ttdeci">Client(string _ip, int port)</div><div class="ttdoc">Constructeur Permet de créer un objet Client. </div><div class="ttdef"><b>Definition:</b> <a href="Client_8cpp_source.html#l00004">Client.cpp:4</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Mercredi 17 Juin 2015 14:04:11 pour Skøll &amp; Yard par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
