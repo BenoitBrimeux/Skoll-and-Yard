@@ -20,7 +20,7 @@ The instructions were to created a small game using SFML and with online multipl
 
 Compiling need SFML install. 
 
-Instruction for Linux 
+Instructions for Linux 
 
 	cd .../Skoll-and-Yard/
 	make server
